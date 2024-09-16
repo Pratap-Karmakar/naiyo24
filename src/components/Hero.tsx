@@ -4,7 +4,6 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 import Link from "next/link";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
-import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -28,7 +27,7 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10 ">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          
+
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100  max-w-80"><span className="font-bold text-purple">Naiyo24</span>, Innovating Tomorrow, Today.</h2>
 
           <TextGenerateEffect  className="text-center text-[40px] md:text-4xl lg:text-5xl" words="Transforming Concepts into Seamless User Experiences"/>
